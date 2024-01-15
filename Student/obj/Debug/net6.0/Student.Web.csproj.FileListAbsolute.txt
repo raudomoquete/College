@@ -1,0 +1,8 @@
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.csproj.AssemblyReference.cache
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.AssemblyInfoInputs.cache
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.AssemblyInfo.cs
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.csproj.CoreCompileInputs.cache
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\sanch\source\repos\College\Student\obj\Debug\net6.0\Student.Web.sourcelink.json
