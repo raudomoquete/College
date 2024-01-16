@@ -9,13 +9,13 @@ namespace Student.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentController : ControllerBase
+    public class StudentsController : ControllerBase
     {
-        private readonly ILogger<StudentController> _logger;
+        private readonly ILogger<StudentsController> _logger;
         private readonly Context _context;
         private readonly IStudent _student;
 
-        public StudentController(ILogger<StudentController> logger, Context context, IStudent student)
+        public StudentsController(ILogger<StudentsController> logger, Context context, IStudent student)
         {
             _logger = logger;
             _context = context;
