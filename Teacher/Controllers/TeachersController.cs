@@ -7,13 +7,13 @@ namespace Teacher.Controllers
     {
         [ApiController]
         [Route("api/[controller]")]
-        public class TeacherController : ControllerBase
+        public class TeachersController : ControllerBase
         {
-            private readonly ILogger<TeacherController> _logger;
+            private readonly ILogger<TeachersController> _logger;
             private readonly Context _context;
             private readonly ITeacher _teacher;
 
-            public TeacherController(ILogger<TeacherController> logger, Context context, ITeacher teacher)
+            public TeachersController(ILogger<TeachersController> logger, Context context, ITeacher teacher)
             {
                     _logger = logger;
                     _context = context;
@@ -93,7 +93,7 @@ namespace Teacher.Controllers
 
             [HttpGet]
             [Route("GetAllTeachers")]
-            public async Task<IActionResult> GetAllStudents()
+            public async Task<IActionResult> GetAllTeachers()
             {
                 return Ok(await _teacher.GetTeachers());
             }

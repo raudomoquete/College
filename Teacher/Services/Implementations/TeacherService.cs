@@ -10,10 +10,10 @@ namespace Teacher.Services
         private readonly ILogger<TeacherService> _logger;
         private readonly Context _context;
 
-        public TeacherService(ILogger<TeacherService> _logger, Context context)
+        public TeacherService(ILogger<TeacherService> logger, Context context)
         {
-            this._logger = _logger;
-            this._context = context;
+            _logger = logger;
+            _context = context;
         }
 
         public async Task AddTeacher(TeacherModel teacher)
