@@ -15,5 +15,7 @@ namespace Enlistment.Models
         public int Age { get; set; }
 
         public string Email { get; set; } = string.Empty;
+
+        public virtual EnlistmentModel? Enlistment { get; set; }
     }
 }

@@ -15,16 +15,13 @@ namespace Enlistment.Models
         [Key]
         public Guid Id { get; set; }
 
-        // ID del estudiante que se está inscribiendo
         public Guid StudentId { get; set; }
-        // Referencia al estudiante
+
         public virtual StudentModel? Student { get; set; }
 
-        // ID de la asignatura en la que se está inscribiendo
         public Guid SubjectId { get; set; }
-        // Referencia a la asignatura
-        public virtual SubjectModel? Subject { get; set; }
 
+        public virtual SubjectModel? Subject { get; set; }
         
         public Guid GradeId { get; set; }
 

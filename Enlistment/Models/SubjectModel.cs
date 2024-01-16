@@ -7,5 +7,7 @@ namespace Enlistment.Models
         public Guid SubjectId { get; set; }
 
         public string Name { get; set; } = string.Empty;
+
+        public virtual EnlistmentModel? Enlistment { get; set; }
     }
 }
