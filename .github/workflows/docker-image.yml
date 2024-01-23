@@ -26,7 +26,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        file: ./Dockerfile
+        file: ./Student/Dockerfile
         push: true
         tags: raudo0909/college_microservices:studentService
-
